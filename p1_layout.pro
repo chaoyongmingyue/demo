@@ -25,10 +25,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    content.cpp \
+    baseinfo.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    content.h \
+    baseinfo.h
 
 FORMS += \
         mainwindow.ui
+
+#介绍
+#如何使用布局方法实现一个复杂的窗口布局
+#如何使用分割窗口
+#如何使用堆栈窗体
