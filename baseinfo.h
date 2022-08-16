@@ -20,11 +20,28 @@ signals:
 public slots:
 
 private:
+    //左侧
     QLabel *UserNameLabel;
     QLabel *NameLabel; //用户名
     QLabel *SexLabel;
     QLabel *DepartmentLabel;
+    QLabel *AgeLabel;
+    QLabel *OtherLabel;
+    QLineEdit *UserNameLineEdit;
+    QLineEdit *NameLineEdit;
+    QComboBox *SexComboBox;
+    QTextEdit *DepartmentTextEdit;
+    QLineEdit *AgeLineEdit;
+    QGridLayout *LeftLayout;
 
+    //右侧
+    QLabel *HeadLabel; //右上角部分
+    QLabel *HeadIconLabel;
+    QPushButton *UpdateHeadBtn;
+    QHBoxLayout *TopRightLayout;
+    QLabel * IntroductionLabel;
+    QTextEdit *IntroductionTextEdit;
+    QVBoxLayout *RightLayout;
 
 };
 
