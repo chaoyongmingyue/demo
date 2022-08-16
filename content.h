@@ -1,13 +1,16 @@
 #ifndef CONTENT_H
 #define CONTENT_H
 
-#include <QObject>
+#include <QFrame>
+#include <QStackedWidget>
+#include <QPushButton>
 
-class content : public QObject
+
+class content : public QFrame
 {
     Q_OBJECT
 public:
-    explicit content(QObject *parent = nullptr);
+    explicit content(QWidget *parent = nullptr);
 
 signals:
 

@@ -1,6 +1,6 @@
 #include "content.h"
 
-content::content(QObject *parent) : QObject(parent)
+content::content(QFrame *parent) : QFrame(parent)
 {
 
 }
