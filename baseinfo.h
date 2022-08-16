@@ -21,8 +21,9 @@ public slots:
 
 private:
     QLabel *UserNameLabel;
-    QLabel *NameLabel;
+    QLabel *NameLabel; //用户名
     QLabel *SexLabel;
+    QLabel *DepartmentLabel;
 
 
 };
