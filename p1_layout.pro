@@ -28,13 +28,15 @@ SOURCES += \
         mainwindow.cpp \
     content.cpp \
     baseinfo.cpp \
-    contact.cpp
+    contact.cpp \
+    detail.cpp
 
 HEADERS += \
         mainwindow.h \
     content.h \
     baseinfo.h \
-    contact.h
+    contact.h \
+    detail.h
 
 FORMS += \
         mainwindow.ui
